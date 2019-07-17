@@ -1,10 +1,11 @@
 import webbrowser
 
-url = 'http://docs.python.org/'
-# webbrowser.open(url)
-chrome_path = 'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s'
+if __name__ == '__main__':
 
-# i = 1
-# while i <= 10:
-#     webbrowser.get(chrome_path).open(url)
-#     i += 1
+    url = 'http://google.com'
+    chrome_path = 'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s'.lower()
+    print(chrome_path)
+    i = 1
+    while i <= 5:
+        webbrowser.get(chrome_path).open(url)
+        i += 1
