@@ -3,4 +3,4 @@
 fruits = ["banana", "apple", "cherry"]
 x: str
 for x in fruits:
-    print(x.upper().lower())
+    print(x)
