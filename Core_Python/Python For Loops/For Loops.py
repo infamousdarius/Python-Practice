@@ -1,5 +1,6 @@
 # Print each fruit in a fruit list:
 
-fruits = ["apple", "banana", "cherry"]
+fruits = ["banana", "apple", "cherry"]
+x: str
 for x in fruits:
-    print(x)
+    print(x.upper().lower())
