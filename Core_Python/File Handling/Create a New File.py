@@ -5,8 +5,12 @@
 # "a" - Append - will create a file if the specified file does not exist
 #
 # "w" - Write - will create a file if the specified file does not exist
+import os
 
-f = open("myfile.txt", "x")
+if __name__ == '__main__':
+    os.remove('myfile.txt')
 
-# Create a new file if it does not exist:
-f = open("myfile.txt", "w")
+    f = open("myfile.txt", "x")
+
+    # Create a new file if it does not exist:
+    f = open("myfile.txt", "w")
